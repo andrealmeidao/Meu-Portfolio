@@ -2,7 +2,7 @@ Meu Portfólio
 ## Tecnologias
 
 
-Este é meu site de portfólio pessoal desenvolvido com
+Este é meu site de portfólio pessoal desenvolvido com, 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)  
