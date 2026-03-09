@@ -13,6 +13,8 @@ Nele apresento minhas habilidades, alguns projetos e formas de contato.
 Sou estudante de Ciência da Computação e atualmente também curso o Técnico em Tecnologia da Informação.  
 Neste site apresento um pouco da minha trajetória, competências e projetos desenvolvidos durante meus estudos.
 
+![Preview](preview.png)
+
  Tecnologias utilizadas
 
 - HTML
