@@ -34,5 +34,5 @@ https://andrealmeidao.github.io/Meu-Portfolio/
 
  Contato
 
-- LinkedIn
+- LinkedIn https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/
 - GitHub
