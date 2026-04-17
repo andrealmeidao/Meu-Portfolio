@@ -23,9 +23,9 @@ O projeto foi reorganizado para comunicar melhor posicionamento profissional, fo
 - cards de jornada, habilidades, projetos e contato
 - estrutura pronta para crescer e migrar depois para Vite ou outro setup React
 
-## Como executar
-
-Abra o arquivo `Index.html` no navegador.
+## Site
+primeira versão
+https://andre-de-almeida-oliveira.vercel.app/
 
 ## Estrutura
 
