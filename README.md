@@ -1,38 +1,42 @@
-Meu Portfólio
-## Tecnologias
+# Perfil Project
 
+Página de apresentação pessoal evoluída para uma landing page de portfólio com visual mais moderno, animações leves e renderização com React no navegador.
 
-Este é meu site de portfólio pessoal desenvolvido com, 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)  
-Nele apresento minhas habilidades, alguns projetos e formas de contato.
+## Visão geral
 
- Sobre
+O projeto foi reorganizado para comunicar melhor posicionamento profissional, formação, habilidades, projetos e contatos.
 
-Sou estudante de Ciência da Computação e atualmente também curso o Técnico em Tecnologia da Informação.  
-Neste site apresento um pouco da minha trajetória, competências e projetos desenvolvidos durante meus estudos.
-
-![Preview](preview.png)
-
- Tecnologias utilizadas
+## Stack
 
 - HTML
 - CSS
-- Bootstrap
-- Python (nos projetos apresentados)
+- JavaScript
+- React via CDN
+- Babel Standalone
 
- Projetos
+## Destaques da nova versão
 
-Entre os projetos apresentados está um automatizador de tarefas desenvolvido em Python utilizando a biblioteca PyAutoGUI, capaz de executar ações repetitivas no computador como clicar em botões e preencher formulários.
+- layout mais profissional e responsivo
+- navegação com destaque automático da seção ativa
+- animações de entrada com scroll
+- hero section mais forte para apresentação profissional
+- cards de jornada, habilidades, projetos e contato
+- estrutura pronta para crescer e migrar depois para Vite ou outro setup React
 
- Acesse o site
+## Como executar
 
-Você pode acessar o portfólio online aqui:
+Abra o arquivo `Index.html` no navegador.
 
-https://andrealmeidao.github.io/Meu-Portfolio/
+## Estrutura
 
- Contato
+- `Index.html`: carrega a página, estilos e React
+- `style.css`: visual completo, responsividade e animações
+- `script.js`: componentes React e dados da página
 
-- LinkedIn https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/
-- GitHub
+## Próximos passos sugeridos
+
+- adicionar screenshots reais dos projetos
+- incluir mais projetos com links de demo
+- migrar de React via CDN para Vite
+- separar componentes em arquivos próprios
+- adicionar formulário de contato
