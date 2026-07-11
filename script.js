@@ -11,18 +11,18 @@ const NAV_LINKS = [
 const STORY_CARDS = [
     {
         title: "Sobre Mim",
-        text: "Sou estudante de Ciência da Computação e também curso o Técnico em Tecnologia da Informação. Estou construindo uma base prática em desenvolvimento web, Python e automação para transformar aprendizado em projetos reais.",
-        link: { href: "#projetos", label: "Ver projetos" },
+        text: "Sou Técnico em Tecnologia da Informação, estudo Ciência da Computação e tenho certificação em Python. Combino conhecimento em desenvolvimento web, automação, redes de computadores e suporte técnico. Estou em busca ativa de uma oportunidade profissional onde possa contribuir com minhas habilidades técnicas e crescer continuamente.",
+        link: { href: "#projetos", label: "Ver meus trabalhos" },
     },
     {
-        title: "Objetivo Profissional",
-        text: "Busco minha primeira oportunidade como desenvolvedor júnior, estagiário ou freelancer. Quero atuar em projetos onde eu possa evoluir tecnicamente e entregar soluções úteis com código limpo, interfaces claras e automação inteligente.",
+        title: "O Que Busco",
+        text: "Procuro minha primeira oportunidade como desenvolvedor júnior, técnico de TI, suporte técnico ou freelancer. Sou versátil e pronto para atuar em áreas como programação, infraestrutura, montagem/conserto de computadores ou gestão de dados. Quero evoluir tecnicamente e entregar soluções práticas e de qualidade.",
         link: { href: "#contato", label: "Vamos conversar" },
     },
     {
-        title: "O Que Estou Construindo",
-        text: "Meu foco está em portfólio, automação de processos com Python, interfaces front-end e projetos que mostrem evolução contínua. Cada entrega é uma chance de praticar mais organização, documentação e visão de produto.",
-        link: { href: "https://github.com/andrealmeidao", label: "Abrir GitHub", external: true },
+        title: "Meu Diferencial",
+        text: "Tenho formação técnica sólida combinada com estudos acadêmicos. Domino programação e também lido com infraestrutura, redes e hardware. Essa bagagem ampla me permite resolver problemas sob diferentes perspectivas, seja em código, na rede ou na máquina física.",
+        link: { href: "https://github.com/andrealmeidao", label: "Explorar GitHub", external: true },
     },
 ];
 
@@ -30,20 +30,29 @@ const JOURNEY = [
     {
         image: "imagens/matriz-de-bordado-grau-tecnico-cod-01333-bordado.webp",
         alt: "Logo do Grau Técnico",
-        title: "Grau Técnico",
+        title: "Técnico em T.I",
         subtitle: "Curso Técnico Integrado em Tecnologia da Informação",
         period: "fev 2024 - abr 2026",
-        description: "Base forte em lógica, programação orientada a objetos, front-end, bancos de dados e ferramentas úteis para o dia a dia de desenvolvimento.",
-        tags: ["Python", "HTML", "CSS", "JavaScript", "MySQL"],
+        description: "Formação técnica completa com foco em lógica de programação, orientação a objetos, desenvolvimento web, bancos de dados, redes de computadores, montagem e manutenção de computadores.",
+        tags: ["Python", "HTML", "CSS", "JavaScript", "MySQL", "Redes", "Hardware"],
     },
     {
         image: "imagens/logo-by-anhanguera-desktop.webp",
         alt: "Logo da Anhanguera",
-        title: "Anhanguera Educacional",
-        subtitle: "Bacharelado em Ciência da Computação",
+        title: "Bacharelado em Computação",
+        subtitle: "Ciência da Computação - Anhanguera Educacional",
         period: "Desde mar 2026 | Em andamento",
-        description: "Formação acadêmica ampliando visão de estrutura de software, raciocínio computacional e fundamentos para crescimento de longo prazo na área.",
-        tags: ["Computação", "Estrutura de software", "Evolução profissional"],
+        description: "Formação acadêmica ampliando visão em estrutura de software, algoritmos, arquitetura de sistemas, segurança da informação e fundamentos para crescimento profissional de longo prazo.",
+        tags: ["Computação", "Algoritmos", "Fundamentos", "Especialização"],
+    },
+    {
+        image: "imagens/logo-python.webp",
+        alt: "Logo Python",
+        title: "Certificação Python",
+        subtitle: "Certificação Profissional em Python",
+        period: "Concluído em 2025",
+        description: "Certificação que valida conhecimento em programação Python, automação de processos, manipulação de dados e boas práticas de desenvolvimento. Diferencial importante para atuar em automação e backend.",
+        tags: ["Python", "Automação", "Certificação", "Validado"],
     },
 ];
 
@@ -57,12 +66,20 @@ const SKILL_GROUPS = [
         items: ["HTML5", "CSS3", "Bootstrap", "Design responsivo"],
     },
     {
-        title: "Dados",
-        items: ["SQL", "MySQL", "Estruturação de consultas", "Modelagem básica"],
+        title: "Dados & Aplicações",
+        items: ["SQL", "MySQL", "Planilhas Excel", "Estruturação de consultas"],
     },
     {
         title: "Automação",
-        items: ["PyAutoGUI", "Automação de processos", "Automação de tarefas", "Produtividade"],
+        items: ["PyAutoGUI", "Automação de processos", "Scripts Python", "Produtividade"],
+    },
+    {
+        title: "Redes e Infraestrutura",
+        items: ["Criação de redes", "Protocolo TCP/IP", "Configuração de switches", "Troubleshooting"],
+    },
+    {
+        title: "Suporte Técnico & Hardware",
+        items: ["Montagem de PCs", "Conserto de computadores", "Diagnóstico de problemas", "Manutenção preventiva"],
     },
 ];
 
@@ -96,13 +113,13 @@ const PROJECTS = [
 const CONTACTS = [
     {
         title: "LinkedIn",
-        description: "Perfil com formação, competências e posicionamento profissional para oportunidades como desenvolvedor júnior.",
+        description: "Perfil com formação técnica e acadêmica, competências diversas e posicionamento profissional aberto a oportunidades como desenvolvedor, técnico de TI ou suporte técnico.",
         href: "https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/",
         action: "Visitar LinkedIn",
     },
     {
         title: "GitHub",
-        description: "Repositórios, estudos práticos e projetos que mostram minha evolução em automação, front-end e desenvolvimento web.",
+        description: "Repositórios, estudos práticos e projetos que mostram minha evolução em automação, front-end, desenvolvimento web e soluções técnicas diversas.",
         href: "https://github.com/andrealmeidao",
         action: "Ver GitHub",
     },
@@ -152,8 +169,8 @@ function App() {
                 <div className="brand">
                     <div className="brand-mark">AA</div>
                     <div className="brand-copy">
-                        <strong>Andre Almeida</strong>
-                        <span>Python, automação e front-end</span>
+                        <strong>André de Almeida Oliveira</strong>
+                        <span>Técnico em T.I, Programação e Suporte Técnico</span>
                     </div>
                 </div>
 
@@ -180,82 +197,71 @@ function App() {
             <main>
                 <section className="hero reveal" id="sobre">
                     <div className="hero-copy">
-                        <span className="eyebrow">Disponível para estágio, júnior e freelance</span>
-                        <h1>Construindo projetos com Python, automação e web.</h1>
+                        <div className="eyebrow">
+                            🎯 Aberto a Oportunidades
+                        </div>
+                        <h1>
+                            Técnico em T.I com visão ampla em programação e infraestrutura
+                        </h1>
                         <p>
-                            Sou Andre Almeida, desenvolvedor em formação com foco em Python,
-                            automação de processos e interfaces web. Estou transformando estudo
-                            em portfólio com projetos práticos que mostram organização,
-                            curiosidade técnica e vontade de evoluir rápido.
+                            Sou desenvolvedor em formação, mas também domino redes, suporte técnico e hardware. Busco oportunidades como desenvolvedor júnior, técnico de TI ou profissional versátil que possa atuar em diferentes frentes da tecnologia.
                         </p>
-
                         <div className="hero-actions">
-                            <a className="button" href="#projetos">Ver projetos</a>
-                            <a className="button-secondary" href="https://github.com/andrealmeidao" target="_blank" rel="noreferrer">
-                                GitHub
+                            <a href="#contato" className="button">
+                                ✉️ Entrar em contato
                             </a>
-                            <a className="button-secondary" href="https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/" target="_blank" rel="noreferrer">
-                                LinkedIn
+                            <a
+                                href="https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="button-secondary"
+                            >
+                                Meu LinkedIn
                             </a>
                         </div>
                     </div>
 
                     <div className="hero-grid">
                         <div className="glass-card">
-                            <h3>Resumo rápido</h3>
+                            <h3>Formação Técnica</h3>
                             <p>
-                                Estudante de Ciência da Computação e Técnico em TI, com foco em
-                                aprendizado aplicado. Trabalho com Python, HTML, CSS,
-                                JavaScript, bancos de dados e automação com PyAutoGUI.
+                                Técnico em Tecnologia da Informação com base sólida em programação, redes e hardware.
                             </p>
-                        </div>
-
-                        <div className="hero-highlights">
-                            <div className="mini-stat">
-                                <span>Foco principal</span>
-                                <strong>Python + Automação</strong>
-                            </div>
-                            <div className="mini-stat">
-                                <span>Base complementar</span>
-                                <strong>Front-end e APIs</strong>
-                            </div>
-                            <div className="mini-stat">
-                                <span>Objetivo</span>
-                                <strong>Primeira oportunidade</strong>
-                            </div>
-                            <div className="mini-stat">
-                                <span>Prática atual</span>
-                                <strong>Portfólio real</strong>
+                            <div className="hero-highlights">
+                                <div className="mini-stat">
+                                    <span>Certificado em</span>
+                                    <strong>Python</strong>
+                                </div>
+                                <div className="mini-stat">
+                                    <span>Estudando</span>
+                                    <strong>Computação</strong>
+                                </div>
+                                <div className="mini-stat">
+                                    <span>Áreas de atuação</span>
+                                    <strong>6+</strong>
+                                </div>
+                                <div className="mini-stat">
+                                    <span>Projetos</span>
+                                    <strong>3+</strong>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section className="section reveal">
-                    <div className="section-head">
-                        <div>
-                            <span className="section-tag">Apresentação</span>
-                            <h2>Quem eu sou hoje</h2>
-                            <p>
-                                Esta página foi pensada para comunicar meu momento atual de forma
-                                mais profissional: foco, trajetória, habilidades e projetos que
-                                mostram na prática como estou evoluindo.
-                            </p>
-                        </div>
-                    </div>
-
+                <section className="section reveal" id="sobre-cards">
                     <div className="story-grid">
                         {STORY_CARDS.map((card) => (
                             <article className="story-card" key={card.title}>
                                 <h3>{card.title}</h3>
                                 <p>{card.text}</p>
                                 <a
-                                    className="link-inline"
                                     href={card.link.href}
+                                    className="link-inline"
                                     target={card.link.external ? "_blank" : undefined}
                                     rel={card.link.external ? "noreferrer" : undefined}
                                 >
-                                    {card.link.label}
+                                    {card.link.label} →
                                 </a>
                             </article>
                         ))}
@@ -266,11 +272,9 @@ function App() {
                     <div className="section-head">
                         <div>
                             <span className="section-tag">Jornada</span>
-                            <h2>Formação e evolução</h2>
+                            <h2>Formação técnica e acadêmica</h2>
                             <p>
-                                Minha formação combina base técnica e graduação, o que tem me
-                                ajudado a desenvolver disciplina, repertório e visão de longo
-                                prazo na área de tecnologia.
+                                Minha trajetória combina formação técnica prática com certificações e estudos acadêmicos. Isso me dá uma visão ampla da tecnologia: desde código até infraestrutura e hardware.
                             </p>
                         </div>
                     </div>
@@ -305,11 +309,9 @@ function App() {
                     <div className="section-head">
                         <div>
                             <span className="section-tag">Habilidades</span>
-                            <h2>Ferramentas que já uso</h2>
+                            <h2>Múltiplas competências em tecnologia</h2>
                             <p>
-                                Organizei minhas habilidades por grupos para deixar mais claro
-                                onde já tenho prática e para onde estou direcionando meu
-                                crescimento nos próximos projetos.
+                                Tenho experiência em programação, desenvolvimento web, automação, redes de computadores e suporte técnico. Essa combinação de habilidades me permite ser versátil e abordar projetos por diferentes ângulos.
                             </p>
                         </div>
                     </div>
@@ -329,27 +331,27 @@ function App() {
                         </div>
 
                         <aside className="glass-card skills-panel">
-                            <h3>No que estou focando agora</h3>
+                            <h3>Em desenvolvimento</h3>
                             <ul className="focus-list">
-                                <li>
-                                    <span>
-                                        <strong>Portfólio mais forte</strong>
-                                        <br />
-                                        Melhorar apresentação, documentação e consistência.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <strong>Projetos com mais profundidade</strong>
-                                        <br />
-                                        Sair de páginas simples para aplicações mais completas.
-                                    </span>
-                                </li>
                                 <li>
                                     <span>
                                         <strong>Primeira oportunidade</strong>
                                         <br />
-                                        Mostrar valor com projetos reais, limpos e bem descritos.
+                                        Pronto para contribuir com habilidades técnicas e crescer profissionalmente.
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <strong>Projetos com impacto</strong>
+                                        <br />
+                                        Buscando desafios que permitam aplicar conhecimento diverso.
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <strong>Especialização contínua</strong>
+                                        <br />
+                                        Estudando para aprofundar em áreas de interesse específicas.
                                     </span>
                                 </li>
                             </ul>
@@ -361,11 +363,9 @@ function App() {
                     <div className="section-head">
                         <div>
                             <span className="section-tag">Projetos</span>
-                            <h2>Trabalhos que representam minha evolução</h2>
+                            <h2>Trabalhos que demonstram minha evolução</h2>
                             <p>
-                                Estes projetos mostram meu foco atual em automação, front-end e
-                                aplicações práticas. A ideia é que cada um deles conte uma parte
-                                da minha trajetória como desenvolvedor.
+                                Aqui estão alguns projetos que representam meu aprendizado em automação, desenvolvimento web e programação. Cada um conta uma parte da minha trajetória técnica.
                             </p>
                         </div>
                     </div>
@@ -387,7 +387,7 @@ function App() {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    {project.label}
+                                    {project.label} →
                                 </a>
                             </article>
                         ))}
@@ -398,11 +398,9 @@ function App() {
                     <div className="section-head">
                         <div>
                             <span className="section-tag">Contato</span>
-                            <h2>Onde me encontrar</h2>
+                            <h2>Vamos conversar!</h2>
                             <p>
-                                Se você quiser acompanhar meus projetos, conhecer melhor minha
-                                trajetória ou conversar sobre oportunidades, estes são os
-                                principais canais.
+                                Se você tem uma oportunidade, quer conhecer meus projetos ou simplemente quer conversar sobre tecnologia, entre em contato. Estou aberto a propostas em desenvolvimento, infraestrutura ou suporte técnico.
                             </p>
                         </div>
                     </div>
@@ -427,7 +425,7 @@ function App() {
             </main>
 
             <footer className="footer">
-                <span>© 2026 Andre Almeida. Portfólio pessoal em evolução.</span>
+                <span>© 2026 André de Almeida Oliveira. Portfólio profissional em construção.</span>
                 <a href="https://github.com/andrealmeidao" target="_blank" rel="noreferrer">
                     github.com/andrealmeidao
                 </a>
